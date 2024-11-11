@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeWo-direkt Clone</title>
+    <style>
+        /* Reset and Body */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .logo {
+            font-size: 24px;
+            color: #0056b3;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('download.jpeg') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        /* Search Bar */
+        .search-bar {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .search-input {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .search-button {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">FeWo-direkt</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Reiseplaner</a></li>
+                <li><a href="#">Unterkunft registrieren</a></li>
+                <li><a href="#">Hilfe</a></li>
+                <li><a href="#">Meine Reisen</a></li>
+                <li><a href="#">Anmelden</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Alles gut, du buchst bei FeWo-direkt</h1>
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Wo soll's hingehen?">
+                <input type="text" class="search-input" placeholder="Daten">
+                <input type="text" class="search-input" placeholder="Gäste">
+                <button class="search-button">Suchen</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

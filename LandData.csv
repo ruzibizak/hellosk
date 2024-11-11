@@ -1,0 +1,5 @@
+UPI,TYPE,LandSize,LOCATION,DECRIPTION,LandPrice,id,plotno,Total_NoOfPlot,PlotPrice,size_of_plot
+1234      ,r2   ,1234,kigali    ,near irebero,12000000,1,1,137.11111450195312,87520.2578125,9
+1234      ,r2   ,1234,kigali    ,near irebero,12000000,2,53,53.65217208862305,223662.890625,23
+1234      ,r2   ,1234,kigali    ,near irebero,12000000,3,15,205.6666717529297,58346.83984375,6
+1234      ,r2   ,1234,kigali    ,near irebero,12000000,4,154,308.5,38897.890625,4
